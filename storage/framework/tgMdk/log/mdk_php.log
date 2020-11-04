@@ -1,0 +1,240 @@
+2020-08-24 13:46:01,819 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-24 13:46:01,826  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-24 13:46:01,827  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-24 13:46:01,827  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598276734","amount":"100000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"76da4e4f-6c6b-4c4a-a733-9ae58747e301"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-24 13:46:02,936  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52945146","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200824224540","centerResponseDate":"20200824224540","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200824224540","gatewayResponseDate":"20200824224540","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"100000","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52945146","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598276734","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-24 13:46:02,936 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-24 14:02:04,727 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-24 14:02:04,730  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-24 14:02:04,730  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-24 14:02:04,731  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598276734","amount":"100000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"76da4e4f-6c6b-4c4a-a733-9ae58747e301"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-24 14:02:05,762  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-24 14:02:05,763 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-24 14:03:52,882 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-24 14:03:52,886  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-24 14:03:52,886  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-24 14:03:52,886  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598276734","amount":"100000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"76da4e4f-6c6b-4c4a-a733-9ae58747e301"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-24 14:03:54,063  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-24 14:03:54,063 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-24 14:05:29,435 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-24 14:05:29,440  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-24 14:05:29,440  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-24 14:05:29,440  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598277906","amount":"100000","jpo":"10","withCapture":"1","payNowIdParam":{"token":"535af04f-a070-4a20-b88b-138a13b4424e"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-24 14:05:30,759  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52945178","acquirerCode":"05","cardTransactiontype":"ac","centerRequestDate":"20200824230508","centerResponseDate":"20200824230508","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200824230508","gatewayResponseDate":"20200824230508","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"100000","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"true","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52945178","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598277906","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-24 14:05:30,760 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 01:52:21,424 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 01:52:21,433  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 01:52:21,433  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 01:52:21,433  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598320320","amount":"500000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"d219288c-ec35-4715-82f9-c6e8a313adca"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 01:52:22,078  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52948970","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825105159","centerResponseDate":"20200825105159","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825105159","gatewayResponseDate":"20200825105159","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"500000","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52948970","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598320320","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 01:52:22,079 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:04:02,604 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:04:02,609  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:04:02,609  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:04:02,609  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598320320","amount":"500000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"d219288c-ec35-4715-82f9-c6e8a313adca"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:04:03,143  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:04:03,143 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:08:01,913 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:08:01,916  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:08:01,917  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:08:01,917  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598320320","amount":"500000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"d219288c-ec35-4715-82f9-c6e8a313adca"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:08:02,385  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:08:02,385 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:13:50,363 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:13:50,366  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:13:50,366  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:13:50,367  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598320320","amount":"500000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"d219288c-ec35-4715-82f9-c6e8a313adca"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:13:50,804  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:13:50,804 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:14:25,866 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:14:25,869  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:14:25,869  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:14:25,869  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598320320","amount":"500000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"d219288c-ec35-4715-82f9-c6e8a313adca"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:14:26,413  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:14:26,414 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:14:58,185 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:14:58,186  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:14:58,187  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:14:58,187  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598320320","amount":"500000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"d219288c-ec35-4715-82f9-c6e8a313adca"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:14:58,657  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:14:58,657 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:15:28,003 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:15:28,005  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:15:28,005  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:15:28,005  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598320320","amount":"500000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"d219288c-ec35-4715-82f9-c6e8a313adca"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:15:28,447  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:15:28,447 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:15:58,089 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:15:58,091  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:15:58,091  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:15:58,091  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598321736","amount":"160000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"e98a8319-4b59-442f-a5e9-8496b65feba2"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:15:58,856  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52951012","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825111535","centerResponseDate":"20200825111535","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825111535","gatewayResponseDate":"20200825111535","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"160000","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52951012","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598321736","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 02:15:58,856 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:16:39,058 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:16:39,061  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:16:39,061  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:16:39,061  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598321736","amount":"160000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"e98a8319-4b59-442f-a5e9-8496b65feba2"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:16:39,519  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:16:39,520 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:17:00,144 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:17:00,148  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:17:00,148  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:17:00,148  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598321803","amount":"170000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"c91f5389-744b-4e40-ae71-fc1e7aacb58f"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:17:00,843  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52951017","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825111637","centerResponseDate":"20200825111637","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825111637","gatewayResponseDate":"20200825111637","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"170000","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52951017","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598321803","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 02:17:00,844 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:43:28,583 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:43:28,587  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:43:28,587  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:43:28,587  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598321803","amount":"170000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"c91f5389-744b-4e40-ae71-fc1e7aacb58f"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:43:29,233  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"OC09000000000000","merrMsg":"トークンからカード情報を取得できませんでした。","mstatus":"failure"}}
+2020-08-25 02:43:29,233 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 02:43:50,741 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 02:43:50,745  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 02:43:50,745  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 02:43:50,746  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598323413","amount":"110000","jpo":"10","withCapture":"0","payNowIdParam":{"token":"289f1258-c1cc-4eeb-876a-a6872d43934f"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 02:43:51,439  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52951411","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825114328","centerResponseDate":"20200825114328","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825114328","gatewayResponseDate":"20200825114328","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"110000","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52951411","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598323413","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 02:43:51,440 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:16:19,323 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:16:19,326  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 03:16:19,326  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:16:19,326  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598325349","amount":"445","jpo":"10","withCapture":"0","payNowIdParam":{"token":"c249c989-71b8-409d-99db-5b9270627185"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:16:20,300  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52952559","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825121557","centerResponseDate":"20200825121557","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825121557","gatewayResponseDate":"20200825121557","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"445","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52952559","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598325349","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:16:20,301 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:18:05,368 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:18:05,372  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Capture/card
+2020-08-25 03:18:05,372  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:18:05,372  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598325349","amount":445,"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:18:06,423  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52952559","acquirerCode":"05","cardTransactiontype":"pa","gatewayRequestDate":"20200825121743","gatewayResponseDate":"20200825121743","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"445","reqItemCode":"0990","resAuthCode":"000000","resCenterErrorCode":"   ","marchTxn":"52952580","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598325349","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:18:06,423 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:19:50,111 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:19:50,113  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Capture/card
+2020-08-25 03:19:50,114  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:19:50,114  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598325349","amount":445,"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:19:50,935  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"NH18000000000000","custTxn":"52952559","marchTxn":"52952599","merrMsg":"既に成功していました。","mstatus":"failure","orderId":"order_C1598325349","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:19:50,935 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:21:11,026 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:21:11,029  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 03:21:11,030  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:21:11,030  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598325653","amount":"444","jpo":"10","withCapture":"0","payNowIdParam":{"token":"c863644b-3b7c-4bf1-b7bc-25e22f588299"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:21:12,176  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52952616","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825122049","centerResponseDate":"20200825122049","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825122049","gatewayResponseDate":"20200825122049","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"444","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52952616","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598325653","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:21:12,177 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:21:12,177 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:21:12,178  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Capture/card
+2020-08-25 03:21:12,178  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:21:12,178  INFO [127.0.0.1] - request data  ==> {"amount":"444","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:21:13,198  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"NH02000000000000","custTxn":"52952618","marchTxn":"52952618","merrMsg":"取引が無効です。","mstatus":"failure","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:21:13,198 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:22:03,729 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:22:03,731  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 03:22:03,731  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:22:03,731  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598325703","amount":"446","jpo":"10","withCapture":"0","payNowIdParam":{"token":"0d25623c-8588-4a61-ab72-16ac2bbab15a"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:22:04,813  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52952681","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825122141","centerResponseDate":"20200825122141","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825122141","gatewayResponseDate":"20200825122141","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"446","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52952681","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598325703","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:22:04,813 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:22:04,814 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:22:04,815  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Capture/card
+2020-08-25 03:22:04,815  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:22:04,815  INFO [127.0.0.1] - request data  ==> {"amount":"446","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:22:05,637  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"NH02000000000000","custTxn":"52952683","marchTxn":"52952683","merrMsg":"取引が無効です。","mstatus":"failure","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:22:05,637 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:23:26,654 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:23:26,658  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 03:23:26,658  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:23:26,658  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598325787","amount":"447","jpo":"10","withCapture":"0","payNowIdParam":{"token":"3ea8c16d-57f9-420f-a5c7-ca9b3e11e2fe"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:23:27,407  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52952746","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825122304","centerResponseDate":"20200825122304","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825122304","gatewayResponseDate":"20200825122304","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"447","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52952746","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598325787","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:23:27,407 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:23:27,407 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:23:27,408  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Capture/card
+2020-08-25 03:23:27,408  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:23:27,408  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598325787","amount":"447","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:23:28,169  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52952746","acquirerCode":"05","cardTransactiontype":"pa","gatewayRequestDate":"20200825122305","gatewayResponseDate":"20200825122305","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"447","reqItemCode":"0990","resAuthCode":"000000","resCenterErrorCode":"   ","marchTxn":"52952749","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598325787","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:23:28,169 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:29:58,202 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:29:58,205  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 03:29:58,205  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:29:58,206  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598326176","amount":"447","jpo":"10","withCapture":"0","payNowIdParam":{"token":"869e83e8-8195-4752-b35b-7c5599e29e99"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:29:59,208  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52953289","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825122936","centerResponseDate":"20200825122936","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825122936","gatewayResponseDate":"20200825122936","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"447","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52953289","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598326176","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:29:59,209 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:29:59,209 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:29:59,209  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Capture/card
+2020-08-25 03:29:59,209  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:29:59,210  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598326176","amount":"447","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:30:00,046  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52953289","acquirerCode":"05","cardTransactiontype":"pa","gatewayRequestDate":"20200825122937","gatewayResponseDate":"20200825122937","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"447","reqItemCode":"0990","resAuthCode":"000000","resCenterErrorCode":"   ","marchTxn":"52953292","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598326176","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:30:00,046 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:32:16,141 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:32:16,144  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/card
+2020-08-25 03:32:16,145  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:32:16,145  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598326315","amount":"441","jpo":"10","withCapture":"0","payNowIdParam":{"token":"67846ce6-f8be-4956-a387-f67e354837d4"},"txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:32:17,014  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52953636","acquirerCode":"05","cardTransactiontype":"a","centerRequestDate":"20200825123154","centerResponseDate":"20200825123154","connectedCenterId":"jcn","fraudDetectionResponse":{"agResponse":{"decision":"accept","hitReasons":["DUMMY-REASON"],"hitRules":["DUMMY-RULE"]},"result":"accept","service":"ag"},"gatewayRequestDate":"20200825123154","gatewayResponseDate":"20200825123154","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"441","reqCardExpire":"*****","reqCardNumber":"411111********11","reqItemCode":"0990","reqJpoInformation":"10","reqSecurityCode":"0000","reqWithCapture":"false","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52953636","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598326315","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:32:17,015 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:32:17,015 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:32:17,016  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Capture/card
+2020-08-25 03:32:17,016  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:32:17,016  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598326315","amount":"441","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:32:17,778  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52953636","acquirerCode":"05","cardTransactiontype":"pa","gatewayRequestDate":"20200825123154","gatewayResponseDate":"20200825123154","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"441","reqItemCode":"0990","resAuthCode":"000000","resCenterErrorCode":"   ","marchTxn":"52953639","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598326315","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:32:17,779 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 03:49:21,065 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 03:49:21,068  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Cancel/card
+2020-08-25 03:49:21,068  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 03:49:21,068  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598326315","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 03:49:22,481  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"A001000000000000","custTxn":"52953636","acquirerCode":"05","cardTransactiontype":"vpa","centerRequestDate":"20200825124858","centerResponseDate":"20200825124858","connectedCenterId":"jcn","gatewayRequestDate":"20200825124858","gatewayResponseDate":"20200825124859","loopback":"0","pending":"0","reqAcquirerCode":"05","reqAmount":"441","reqItemCode":"0990","resActionCode":"000","resAuthCode":"000000","resCenterErrorCode":"   ","resReturnReferenceNumber":"012345678901","marchTxn":"52955032","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_C1598326315","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 03:49:22,481 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 04:03:08,958 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 04:03:08,961  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Cancel/card
+2020-08-25 04:03:08,961  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 04:03:08,961  INFO [127.0.0.1] - request data  ==> {"orderId":"order_C1598326315","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 04:03:09,619  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"NH18000000000000","custTxn":"52953636","marchTxn":"52955951","merrMsg":"既に成功していました。","mstatus":"failure","orderId":"order_C1598326315","serviceType":"card","txnVersion":"1.6.0"}}
+2020-08-25 04:03:09,620 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:02:48,050 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:02:48,054  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/cvs
+2020-08-25 06:02:48,054  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:02:48,054  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"sej","orderId":"order_CVS1598331137","amount":"100000","name1":"*","name2":"*","telNo":"**********","payLimit":"20200825","paymentType":"0","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:02:49,456  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"D001000000000000","custTxn":"2914196","haraikomiUrl":"https:\/\/www.veritrans.co.jp\/user_support\/seven_dummy.html","receiptNo":"2000000010001","marchTxn":"2914196","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_CVS1598331137","serviceType":"cvs","txnVersion":"1.6.0"}}
+2020-08-25 06:02:49,456 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:07:34,786 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:07:34,791  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/cvs
+2020-08-25 06:07:34,791  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:07:34,792  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"sej","orderId":"order_CVS1598331137","amount":"100000","name1":"*","name2":"*","telNo":"**********","payLimit":"20200825","paymentType":"0","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:07:35,782  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"NH04000000000000","custTxn":"2914196","marchTxn":"2914243","merrMsg":"取引が重複してます。","mstatus":"failure","orderId":"order_CVS1598331137","serviceType":"cvs","txnVersion":"1.6.0"}}
+2020-08-25 06:07:35,782 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:08:03,997 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:08:04,001  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/cvs
+2020-08-25 06:08:04,001  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:08:04,002  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"sej","orderId":"order_CVS1598335668","amount":"100000","name1":"*","name2":"*","telNo":"**********","payLimit":"20200825","paymentType":"0","pushUrl":"http:\/\/veritrans.local\/","payLimitHhmm":"23:10","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:08:04,997  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"D001000000000000","custTxn":"2914244","haraikomiUrl":"https:\/\/www.veritrans.co.jp\/user_support\/seven_dummy.html","receiptNo":"2000000010001","marchTxn":"2914244","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_CVS1598335668","serviceType":"cvs","txnVersion":"1.6.0"}}
+2020-08-25 06:08:04,997 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:10:29,927 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:10:29,932  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/cvs
+2020-08-25 06:10:29,933  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:10:29,933  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"sej","orderId":"order_CVS1598335818","amount":"100000","name1":"*","name2":"*","telNo":"**********","payLimit":"20200825","paymentType":"0","pushUrl":"http:\/\/veritrans.local\/","payLimitHhmm":"22:00","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:10:31,028  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"D001000000000000","custTxn":"2914256","haraikomiUrl":"https:\/\/www.veritrans.co.jp\/user_support\/seven_dummy.html","receiptNo":"2000000010001","marchTxn":"2914256","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_CVS1598335818","serviceType":"cvs","txnVersion":"1.6.0"}}
+2020-08-25 06:10:31,028 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:55:21,091 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:55:21,095  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/bank
+2020-08-25 06:55:21,095  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:55:21,095  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"atm","orderId":"order_B1598338504","amount":"100000","name1":"*","kana1":"*","payLimit":"20200825","contents":"漢字","contentsKana":"カナ","pushUrl":"http:\/\/veritrans.local\/","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:55:22,243  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"P001000000000000","custTxn":"764307","confirmNo":"288916","customerNo":"********************","requestId":"X0S1w6wfBY0AAFAbU8wAAAAC","shunoKikanNo":"58191","marchTxn":"764307","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_B1598338504","serviceType":"bank","txnVersion":"1.6.0"}}
+2020-08-25 06:55:22,244 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:56:24,980 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:56:24,983  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/bank
+2020-08-25 06:56:24,983  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:56:24,983  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"atm","orderId":"order_B1598338569","amount":"100000","name1":"*","kana1":"*","payLimit":"20200825","contents":"漢字","contentsKana":"カナ","pushUrl":"http:\/\/veritrans.local\/","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:56:25,944  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"NC04000000000000","custTxn":"764309","marchTxn":"764309","merrMsg":"リクエストパラメータの値が不正です。 パラメータ kana1=[姓]","mstatus":"failure","orderId":"order_B1598338569","serviceType":"bank","txnVersion":"1.6.0"}}
+2020-08-25 06:56:25,944 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:56:43,478 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:56:43,481  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/bank
+2020-08-25 06:56:43,482  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:56:43,482  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"atm","orderId":"order_B1598338569","amount":"100000","name1":"*","kana1":"*","payLimit":"20200825","contents":"漢字","contentsKana":"カナ","pushUrl":"http:\/\/veritrans.local\/","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:56:44,460  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"P001000000000000","custTxn":"764309","confirmNo":"288916","customerNo":"********************","requestId":"X0S2FawfBYUAAD0CyVwAAAAI","shunoKikanNo":"58191","marchTxn":"764310","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_B1598338569","serviceType":"bank","txnVersion":"1.6.0"}}
+2020-08-25 06:56:44,461 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:57:45,519 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:57:45,522  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/bank
+2020-08-25 06:57:45,523  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:57:45,523  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"atm","orderId":"order_B1598338569","amount":"100000","name1":"*","kana1":"*","payLimit":"20200825","contents":"漢字","contentsKana":"カナ","pushUrl":"http:\/\/veritrans.local\/","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:57:46,490  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"NH04000000000000","custTxn":"764309","marchTxn":"764312","merrMsg":"取引が重複してます。","mstatus":"failure","orderId":"order_B1598338569","serviceType":"bank","txnVersion":"1.6.0"}}
+2020-08-25 06:57:46,491 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
+2020-08-25 06:58:17,922 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() start
+2020-08-25 06:58:17,924  INFO [127.0.0.1] - connect url   ==> https://api.veritrans.co.jp:443/paynow/v2/Authorize/cvs
+2020-08-25 06:58:17,925  INFO [127.0.0.1] - user agent    ==> VeriTrans 4GMDK/1.6.0/1.6.0 (PHP 7.3.11; )
+2020-08-25 06:58:17,925  INFO [127.0.0.1] - request data  ==> {"serviceOptionType":"sej","orderId":"order_CVS1598338686","amount":"100000","name1":"*","name2":"*","telNo":"**********","payLimit":"20200825","paymentType":"0","pushUrl":"http:\/\/veritrans.local\/","payLimitHhmm":"22:00","txnVersion":"1.6.0","dummyRequest":"0","merchantCcid":"A100000000000001069951cc"}
+2020-08-25 06:58:18,900  INFO [127.0.0.1] - response data ==> {"result":{"vResultCode":"D001000000000000","custTxn":"2914306","haraikomiUrl":"https:\/\/www.veritrans.co.jp\/user_support\/seven_dummy.html","receiptNo":"2000000010001","marchTxn":"2914306","merrMsg":"処理が成功しました。","mstatus":"success","optionResults":[],"orderId":"order_CVS1598338686","serviceType":"cvs","txnVersion":"1.6.0"}}
+2020-08-25 06:58:18,901 DEBUG [127.0.0.1] - TGMDK_Transaction.execute() end
